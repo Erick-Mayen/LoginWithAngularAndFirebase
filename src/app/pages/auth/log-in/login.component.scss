@@ -1,35 +1,32 @@
-:root {
-    --background: #000;
-    --green: #45d8b4;
-    --dark-text: rgba(12, 42, 42);
-    --text: #fff;
+.color-background {
+    background-color: #000;
   }
   
-  html,
-  body {
-    height: 100%;
+  .login-background {
+    background-image:url('./loginNaruto.png');
+    background-position: center top;
+    background-repeat: no-repeat;
   }
   
-  body {
-    margin: 0;
-    color: var(--text);
-    background: var(--background);
-    font-family: Roboto, "Helvetica Neue", sans-serif;
-  }
   
   .form {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 105vh;
+  
+    
   
     h1 {
       margin-bottom: 30px;
+      color: aliceblue;
     }
   
     &__container {
       width: 100%;
       max-width: 400px;
+      
+      
     }
   
     hr {
@@ -38,11 +35,12 @@
   
     mat-form-field {
       width: 100%;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
   
     .mdc-button {
       width: 100%;
+      
     }
   
     .small-text {
@@ -51,17 +49,18 @@
       text-align: center;
   
       &.providers {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
       }
   
       &.log-in-redirect {
         margin-top: 30px;
   
         a {
-          color: var(--green);
+          color: white;
           text-decoration: underline;
           cursor: pointer;
         }
       }
     }
   }
+  

@@ -1,35 +1,33 @@
-:root {
-    --background: #000;
-    --green: #45d8b4;
-    --dark-text: rgba(12, 42, 42);
-    --text: #fff;
+.color-background {
+    background-color: #363535;
   }
   
-  html,
-  body {
-    height: 100%;
+  .sign-background {
+    background-image:url('./signUp.png');
+    background-position: center top;
+    background-repeat: no-repeat;
   }
+
   
-  body {
-    margin: 0;
-    color: var(--text);
-    background: var(--background);
-    font-family: Roboto, "Helvetica Neue", sans-serif;
-  }
-  
-  .form {
+
+.formS {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 112vh;
+   
+    
   
     h1 {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
+      color: aliceblue;
     }
   
     &__container {
       width: 100%;
       max-width: 400px;
+     
+      
     }
   
     hr {
@@ -38,7 +36,7 @@
   
     mat-form-field {
       width: 100%;
-      margin-bottom: 20px;
+      margin-bottom: 2px;
     }
   
     .mdc-button {
@@ -51,17 +49,18 @@
       text-align: center;
   
       &.providers {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
       }
   
       &.log-in-redirect {
         margin-top: 30px;
   
         a {
-          color: var(--green);
+          color: white;
           text-decoration: underline;
           cursor: pointer;
         }
       }
     }
   }
+  
